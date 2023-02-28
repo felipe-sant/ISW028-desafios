@@ -1,1 +1,61 @@
 @charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#caixa {
+    background-color: #6d78a8;
+    height: 5px;
+}
+
+header {
+    max-width: 1000px;
+    min-width: none;
+    margin: auto;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+nav {
+    height: 20px;
+    align-self: center;
+}
+
+ul {
+    text-align: right;
+}
+
+
+main {
+    max-width: 1000px;
+    min-width: none;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.imagem {
+    background-color: #efefef;
+    height: 469px;
+    text-align: center;
+}
+
+.imagem > img {
+    height: 469px;
+}
+
+h1 {
+    margin: 20px 0px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+footer {
+    margin: 40px;
+    text-align: center;
+}
