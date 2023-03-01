@@ -61,6 +61,24 @@ p {
     margin: 20px 5px;
 }
 
+hr {
+    margin: 5px 0px;
+}
+
+label {
+    display: block;
+}
+
+input#descricao {
+    height: 50px;
+    text-align: justify\;
+}
+
+button {
+    margin: 5px 0px;
+    display: block;
+}
+
 footer {
     margin: 40px;
     text-align: center;
