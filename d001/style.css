@@ -25,7 +25,7 @@ nav {
     align-self: center;
 }
 
-ul {
+nav > ul {
     text-align: right;
 }
 
@@ -48,11 +48,17 @@ main {
 }
 
 h1 {
-    margin: 20px 0px;
+    margin: 20px 5px 10px 5px;
+    font-size: 1.6em;
+}
+
+ol {
+    margin-left: 40px;
+    padding: 10px 0px 30px 0px;
 }
 
 p {
-    margin: 10px 0px;
+    margin: 20px 5px;
 }
 
 footer {
