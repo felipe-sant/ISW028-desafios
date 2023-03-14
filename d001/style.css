@@ -1,9 +1,8 @@
 @charset "utf-8";
 
 * {
-    margin: 0px;
     padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 
 #caixa {
@@ -25,10 +24,23 @@ nav {
     align-self: center;
 }
 
-nav > ul {
+nav ul {
     text-align: right;
+    padding: 0px;
 }
 
+nav ul li {
+    display: inline-block;
+}
+
+
+li.list::after {
+    content: "  | ";
+}
+
+.mark {
+    font-weight: 600;
+}
 
 main {
     max-width: 1000px;
@@ -69,8 +81,9 @@ label {
     display: block;
 }
 
-input#descricao {
-    height: 50px;
+#descricao {
+    height: 80px;
+    width: 200px;
     text-align: justify\;
 }
 

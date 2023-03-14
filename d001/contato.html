@@ -11,14 +11,18 @@
   <body>
     <div id="caixa"></div>
     <header>
-      <img src="img/logo.png" alt="" />
+      <img src="img/logo.png" alt=""/>
       <nav>
         <ul>
-          <a href="index.html">Home</a>
-          <span>|</span>
-          <a href="quem_somos.html">Quem somos</a>
-          <span>|</span>
-          <a href="contato.html">Contato</a>
+          <li class="list">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="list">
+            <a href="quem_somos.html">Quem somos</a>
+          </li>
+          <li>
+            <a href="#" class="mark">Contato</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -32,11 +36,11 @@
       </p>
       <hr />
       <label for="">Seu e-mail:</label>
-      <input type="text" />
+      <input type="text" id="email" />
       <label for="">Assunto:</label>
       <input type="text" />
       <label for="">Descrição:</label>
-      <input type="text" id="descricao" />
+      <textarea name="" id="descricao" cols="30" rows="10"></textarea>
       <button>Enviar</button>
     </main>
   </body>
